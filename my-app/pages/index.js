@@ -263,7 +263,7 @@ export default function Home() {
 
       },5 * 1000);
     }
-  },[walletConnected]);
+  },[walletConnected,tokenIdsMinted,presaleEnded,presaleStarted]);
 
   const renderButton = () =>{
     if(!walletConnected){
